@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Blogs · Imad Dar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&family=Space+Grotesk:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <div data-component="site-header" data-subtitle="A few of my semi-organized thoughts."></div>
+
+      <main>
+        <section class="blog-browser" aria-labelledby="blog-browser-title">
+          <div class="blog-browser-header">
+            <div>
+              <h2 id="blog-browser-title">Blogs</h2>
+              <p id="blog-browser-description">
+                  Things.
+              </p>
+            </div>
+            <div class="blog-tabs" role="tablist" aria-label="Blog format filter">
+              <button
+                id="blog-tab-weekly-mini"
+                class="blog-tab is-active"
+                type="button"
+                role="tab"
+                aria-selected="true"
+                aria-controls="blog-panel"
+                data-blog-filter="weekly-mini"
+                data-blog-description="Weekly mini blogs where I reflect on something cool I learned.
+                Whether it's an interesting paper I read or a life-changing dev tool, I like spreading the 
+                joy of learning to others. Far from technical, this is a collection of (mostly) un-edited thoughts."
+              >
+                  Mini
+              </button>
+              <button
+                id="blog-tab-full"
+                class="blog-tab"
+                type="button"
+                role="tab"
+                aria-selected="false"
+                aria-controls="blog-panel"
+                data-blog-filter="full"
+                data-blog-description="This is the space for more ironed-out thoughts. Between technical breakdowns,
+                life experiments, and deeper reflections, I hope there's something of value readers can take away.
+                Worst-case scenario, you had fun reading and have a talking point for lunch."
+              >
+                  Big
+              </button>
+              <span class="blog-tab-indicator" aria-hidden="true"></span>
+            </div>
+          </div>
+
+          <div id="blog-panel" class="blog-panel" role="tabpanel" aria-labelledby="blog-tab-weekly-mini">
+            <ul id="blog-list" class="blog-list" role="list"></ul>
+            <p id="blog-list-empty" class="blog-list-empty" hidden>
+              Drafting something worth sharing—check back soon or nudge me with a topic.
+            </p>
+          </div>
+        </section>
+      </main>
+
+      <footer data-component="site-footer" data-variant="blogs"></footer>
+    </div>
+    <script src="nav.js"></script>
+    <script src="footer.js"></script>
+    <script src="blogs.js"></script>
+  </body>
+</html>

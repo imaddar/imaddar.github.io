@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Projects · Imad Dar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&family=Space+Grotesk:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <div data-component="site-header" data-subtitle="Some cool things I've made in my free time."></div>
+
+      <main>
+        <section id="featured-projects">
+          <h2>Projects</h2>
+          <p>Always looking to learn something new!</p>
+          <div class="list-heading">Contractor-OS</div>
+          <p>
+            Construction management hub with a LangChain-powered copilot that
+            streamlines general contractor's data, a core issue in their complex workflows.
+            Contractors can use agents to talk directly with their uploaded documents,
+            generating tasks and scheduling them to simplify the busy work. 
+          </p>
+          <ul class="stack-tags stack-tags--compact" aria-label="Contractor-OS tech stack">
+            <li class="stack-tag">React</li>
+            <li class="stack-tag">FastAPI</li>
+            <li class="stack-tag">LangChain</li>
+            <li class="stack-tag">Supabase</li>
+          </ul>
+
+          <div class="list-heading">Email Newsletter API</div>
+          <p>
+            Production-grade REST API with auth, idempotency, and observability baked in, plus CI/CD + Docker for
+            zero-downtime migrations.
+          </p>
+          <ul class="stack-tags stack-tags--compact" aria-label="Email Newsletter API tech stack">
+            <li class="stack-tag">Rust</li>
+            <li class="stack-tag">PostgreSQL</li>
+            <li class="stack-tag">Docker</li>
+          </ul>
+          
+          <div class="list-heading">Aspect</div>
+          <p>
+              For my capstone project, my team and I are building a tool to accelerate 
+              engineering drawings with LLMs. Based on our interviews, mechanical
+              engineers can spend up to nearly half their time annotating drawings,
+              with most of it spent on tedious tasks such as labeling measurements.
+              We are both speeding up the annotation process and providing a quality
+              assurance layer, making sure engineers aren't making any expensive mistakes.
+          </p>
+          <ul class="stack-tags stack-tags--compact" aria-label="RL for Crowded Navigation tech stack">
+            <li class="stack-tag">React</li>
+            <li class="stack-tag">Tauri</li>
+            <li class="stack-tag">Python</li>
+            <li class="stack-tag">Vercel AI SDK</li>
+          </ul>
+          
+          <div class="list-heading">RL for Crowded Navigation</div>
+          <p>
+            We extended a POMDP planner with deep learning policies so an actor can move through crowded environments 
+            with lower performance overhead compared to existing solutions. By leveraging trained policy
+            and value networks, we applied the work of the <a href="https://arxiv.org/abs/2306.00249">BetaZero</a> paper
+            to our crowded environment. This project was an extension of <a href="https://arxiv.org/abs/2206.10028">the work</a>
+            done by our colleagues Gupta et al.
+            
+          </p>
+          <ul class="stack-tags stack-tags--compact" aria-label="RL for Crowded Navigation tech stack">
+            <li class="stack-tag">Julia</li>
+            <li class="stack-tag">Flux.jl</li>
+            <li class="stack-tag">Reinforcement Learning</li>
+          </ul>
+          
+          <div class="list-heading">GPT Tokenizer</div>
+          <p>
+            Extended a POMDP planner with deep learning policies so bots can move through dense environments faster than
+            AAMAS 2022 baselines.
+          </p>
+          <ul class="stack-tags stack-tags--compact" aria-label="RL for Crowded Navigation tech stack">
+            <li class="stack-tag">Python</li>
+          </ul>
+          
+          <div class="list-heading">Sherlock Sources</div>
+          <p>
+              For a hackathon we built a chrome extension to help verify claims found on the internet.
+              By highlighting a chunk of text, we clean the text, optimize it for search query, and
+              scrape websites to compare with top results. By doing the heavy lifting beforehand, we
+              can leverage much smaller, local models to speed up inference and reduce costs while 
+              maintaining exceptional performance. 
+          </p>
+          <ul class="stack-tags stack-tags--compact" aria-label="RL for Crowded Navigation tech stack">
+            <li class="stack-tag">Javascript</li>
+            <li class="stack-tag">Python</li>
+          </ul>
+          
+          <div class="list-heading">Soccer Tracker</div>
+          <p>
+              Wrote a python script to ingest clips from soccer matches to track players.
+              By finetuning a YOLOv8 model, it can accurately detect 
+              players, referees, and balls. Futhermore, by using k-means clustering
+              to determine player teams, useful statistics can also be extracted
+              like percentage of possesion, player speeds, and individual player numbers.
+              
+          </p>
+          </p>
+          <ul class="stack-tags stack-tags--compact" aria-label="RL for Crowded Navigation tech stack">
+            <li class="stack-tag">Python</li>
+            <li class="stack-tag">YOLO</li>
+          </ul>
+        </section>
+      </main>
+
+      <footer data-component="site-footer" data-variant="projects"></footer>
+    </div>
+    <script src="nav.js"></script>
+    <script src="footer.js"></script>
+  </body>
+</html>
