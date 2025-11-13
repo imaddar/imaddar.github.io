@@ -1,53 +1,22 @@
 (function () {
   const BLOG_POSTS = {
     "weekly-mini": [
-      {
-        title: "Week 07 · Debugging routers at 2 a.m.",
-        summary:
-          "Snapshot from the field while we hustled to bring a privacy-first hotspot back to life before a campus trip.",
-        date: "2024-12-06",
-        readLength: "4 min read",
-        tag: "Prototype log",
-        href: "blogs/weekly-mini/week-07-field-notes.html"
-      },
-      {
-        title: "Week 08 · Pencil math for faster grant reviews",
-        summary:
-          "Mini-post on the heuristics I'm testing to decide if a student hardware grant is a YES in under ten minutes.",
-        date: "2024-12-13",
-        readLength: "3 min read",
-        tag: "Mentorship",
-        href: "blogs/weekly-mini/week-08-grants.html"
-      },
-      {
-        title: "Week 09 · Shipping delight into onboarding emails",
-        summary:
-          "Three tiny experiments that made Blueprint Boulder volunteer onboarding way more human.",
-        date: "2024-12-20",
-        readLength: "5 min read",
-        tag: "Ops",
-        href: "blogs/weekly-mini/week-09-onboarding.html"
-      }
+      // {
+      //   title: "Blog Title",
+      //   summary: "Sentence long summary.",
+      //   date: "YYYY-MM-DD",
+      //   tag: "Tag",
+      //   href: "blog link"
+      // }
     ],
     full: [
-      {
-        title: "The calm workbench: designing routers students can trust",
-        summary:
-          "A long-form teardown of the constraints, trade-offs, and moments of luck while building a low-cost secure router.",
-        date: "2024-11-10",
-        readLength: "11 min read",
-        tag: "Hardware build",
-        href: "blogs/full/calm-workbench.html"
-      },
-      {
-        title: "Learning loops from Blueprint Boulder",
-        summary:
-          "What two years of mentoring nonprofit software teams taught me about pacing, kindness, and momentum.",
-        date: "2024-10-05",
-        readLength: "13 min read",
-        tag: "Playbook",
-        href: "blogs/full/blueprint-learning-loops.html"
-      }
+      // {
+      //   title: "Blog Title",
+      //   summary: "Sentence long summary.",
+      //   date: "YYYY-MM-DD",
+      //   tag: "Tag",
+      //   href: "blog link"
+      // }
     ]
   };
 

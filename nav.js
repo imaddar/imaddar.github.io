@@ -116,7 +116,7 @@
         <span class="theme-toggle__label sr-only"></span>
       </button>
       <h1 class="site-title">Imad Dar</h1>
-      <p class="site-subtitle">${subtitle || "Product-minded engineer · CU Boulder"}</p>
+      <p class="site-subtitle">${subtitle || "CU Boulder"}</p>
       <div class="site-nav-row">
         <nav>
           ${links
