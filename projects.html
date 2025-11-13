@@ -20,6 +20,29 @@
         <section id="featured-projects">
           <h2>Projects</h2>
           <p>Always looking to learn something new!</p>
+          <div class="list-heading">Auto-EW, an edge deployed Signal Classifier (In progress)</div>
+          <p>
+              Building out a pipeline for signal classification on the edge with Rust data ingestion and inference.
+              Currently model testing and learning more about hardware deployment.
+          </p>
+          <ul class="stack-tags stack-tags--compact" aria-label="Contractor-OS tech stack">
+            <li class="stack-tag">Rust</li>
+            <li class="stack-tag">PyTorch</li>
+            <li class="stack-tag">RF</li>
+            <li class="stack-tag">Embedded</li>
+          </ul>
+          
+          <div class="list-heading">Mini Llama Runtime (In Progress)</div>
+          <p>
+              Currently rewriting the GGUF reader, tokenizer, and sampler from llama.cpp in Rust (essentially
+              the "frontend" of llama.cpp). The main goal is to get more comfortable writing Rust,
+              but if all goes according to plan there is also room for performance gains.
+          </p>
+          <ul class="stack-tags stack-tags--compact" aria-label="Contractor-OS tech stack">
+            <li class="stack-tag">Rust</li>
+            <li class="stack-tag">C++</li>
+          </ul>
+          
           <div class="list-heading">Contractor-OS</div>
           <p>
             Construction management hub with a LangChain-powered copilot that
@@ -87,24 +110,24 @@
           
           <div class="list-heading">Sherlock Sources</div>
           <p>
-              For a hackathon we built a chrome extension to help verify claims found on the internet.
-              By highlighting a chunk of text, we clean the text, optimize it for search query, and
+              For a hackathon we built a Chrome extension to help verify claims found on the internet.
+              By highlighting a chunk of text, we clean the text, optimize it for a search query, and
               scrape websites to compare with top results. By doing the heavy lifting beforehand, we
               can leverage much smaller, local models to speed up inference and reduce costs while 
               maintaining exceptional performance. 
           </p>
           <ul class="stack-tags stack-tags--compact" aria-label="RL for Crowded Navigation tech stack">
-            <li class="stack-tag">Javascript</li>
+            <li class="stack-tag">JavaScript</li>
             <li class="stack-tag">Python</li>
           </ul>
           
           <div class="list-heading">Soccer Tracker</div>
           <p>
-              Wrote a python script to ingest clips from soccer matches to track players.
-              By finetuning a YOLOv8 model, it can accurately detect 
-              players, referees, and balls. Futhermore, by using k-means clustering
+              Wrote a Python script to ingest clips from soccer matches to track players.
+              By fine-tuning a YOLOv8 model, it can accurately detect 
+              players, referees, and balls. Furthermore, by using k-means clustering
               to determine player teams, useful statistics can also be extracted
-              like percentage of possesion, player speeds, and individual player numbers.
+              like percentage of possession, player speeds, and individual player numbers.
               
           </p>
           </p>
